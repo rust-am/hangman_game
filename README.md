@@ -79,5 +79,10 @@ Path to file:
 hangman_gem/data/words.txt
 ```
 
+
+You can choose your colors for interface. How to color - see the [gem](https://github.com/fazibear/colorize) page. 
+
+
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
