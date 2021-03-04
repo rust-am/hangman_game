@@ -1,4 +1,4 @@
-# Hangman game
+# hangman_game
 Hangman is a paper and pencil guessing game for two or more players. 
 One player thinks of a word, phrase or sentence and the other(s) tries to guess it by suggesting letters within a 
 certain number of guesses.
@@ -56,9 +56,15 @@ Remaining attempts:
 ```
 ## Usage
 
-Run the command below in your system console where the `main.rb` file is located.
+Firstly install the dependencies specified in `Gemfile`
+
 ```shell
-ruby main.rb
+bundle install
+```
+
+Then run the command below in your system console where the `main.rb` file is located.
+```shell
+bundle exec ruby main.rb
 ```
 Use your keyboard to input letters(one at a time):
 ```
@@ -70,7 +76,7 @@ To add a new words open a `word.txt` in `/data` folder and add new word on a new
 
 Path to file:
 ```
-hangman_game/data/words.txt
+hangman_gem/data/words.txt
 ```
 
 ## License
